@@ -1,0 +1,401 @@
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121219;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Layout */
+
+main {
+    flex: 1;
+}
+
+.section-divider{
+    width:100%;
+    height:3px;
+    background-color:#4A90E2;
+    margin:0 auto;
+}
+
+/* All Navigation */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E1E1E;
+    padding: 20px 50px;
+}
+
+.logo {
+    color: #4A90E2;
+    font-size: 30px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #4A90E2;
+}
+
+/* The Home Page */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 50px 40px 50px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    width: 40%;
+    text-align: center;
+}
+
+.hero-image img{
+    border:3px solid #4A90E2;
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+}
+
+.about-preview {
+    background-color: #181820;
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.about-preview h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    display:inline-block;
+    border-bottom:2px solid #4A90E2;
+    padding-bottom:8px;
+}
+
+.about-preview p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.projects-preview {
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.projects-preview h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    display:inline-block;
+    border-bottom:2px solid #4A90E2;
+    padding-bottom:8px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+/* The About Page */
+
+.about-page {
+    padding: 60px 50px 30px 50px;
+}
+
+.about-page h2 {
+    color: #4A90E2;
+    margin-bottom: 25px;
+}
+
+.about-page p {
+    margin-top: 15px;
+}
+
+.about-intro {
+    background-color: #1E1E1E;
+    padding: 30px;
+    line-height: 1.8;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 60px 50px;
+}
+
+/* The Resume Page */
+
+.resume-page {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.resume-page h2 {
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.resume-page p {
+    margin-bottom: 30px;
+}
+
+.resume-page iframe {
+    background-color: white;
+}
+
+/* The Projects Page */
+
+.projects-page {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.projects-page h2 {
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.projects-page p {
+    margin-bottom: 40px;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.projects-grid .project-card {
+    background-color: #1E1E1E;
+    width: 32%;
+    padding: 20px;
+}
+
+.projects-grid img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* The Blog Page */
+
+.blog-page {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.blog-page h2 {
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.blog-page p {
+    margin-bottom: 40px;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.blog-card {
+    background-color: #1E1E1E;
+    padding: 25px;
+    text-align: left;
+    border-left:5px solid #4A90E2;
+}
+
+.blog-card h3 {
+    color: #4A90E2;
+    margin-bottom: 15px;
+}
+
+.blog-card p {
+    margin-bottom: 20px;
+}
+
+/* Contact Page */
+
+.contact-page {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.contact-page h2 {
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.contact-page p {
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    background-color:#1E1E1E;
+    padding:40px;
+    border-radius:10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color:#252525;
+    color:white;
+    border:2px solid #4A90E2;
+}
+
+.contact-form button {
+
+    margin-top: 20px;
+    padding: 14px 40px;
+
+}
+
+.social-links {
+    margin-top: 60px;
+    border-left: 4px solid #4A90E2;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.social-links h3 {
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.social-links a:hover {
+    color: #4A90E2;
+}
+
+/* Reusable And Shared Components */
+
+.button {
+    display: inline-block;
+    background-color: #4A90E2;
+    color: white;
+    text-decoration: none;
+    padding: 14px 24px;
+    margin-right: 15px;
+    font-weight: bold;
+    border-radius:8px;
+}
+
+.button:hover {
+    background-color: #357ABD;
+}
+
+.project-card {
+    background-color: #1E1E1E;
+    width: 30%;
+    padding: 25px;
+    border-top:4px solid #4A90E2;
+}
+
+.project-card h3 {
+    color: #4A90E2;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    margin-bottom: 20px;
+}
+
+.info-card {
+    background-color: #1E1E1E;
+    width: 48%;
+    padding: 30px;
+}
+
+.info-card h2 {
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.info-card ul {
+    margin-left: 20px;
+}
+
+.info-card li {
+    margin-bottom: 12px;
+}
+
+/* The Footer */
+
+.footer {
+    background-color: #1E1E1E;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.footer p {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.footer-links a:hover {
+    color: #4A90E2;
+}
