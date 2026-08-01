@@ -179,6 +179,9 @@ main {
 }
 
 .resume-page iframe {
+    width: 80%;
+    height: 800px;
+    border: none;
     background-color: white;
 }
 
