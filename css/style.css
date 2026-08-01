@@ -210,12 +210,6 @@ main {
     padding: 20px;
 }
 
-.projects-grid img {
-    width: 100%;
-    height: 200px;
-    margin-bottom: 20px;
-}
-
 /* The Blog Page */
 
 .blog-page {
@@ -351,7 +345,7 @@ main {
 
 .project-card h3 {
     color: #4A90E2;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .project-card p {
