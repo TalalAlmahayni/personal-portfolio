@@ -1,5 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
+function initializeThemeToggle() {
   const toggleBtn = document.getElementById("theme-toggle");
+
+  if (!toggleBtn) {
+    return;
+  }
 
   function applyTheme(theme) {
     document.body.setAttribute("data-theme", theme);
@@ -27,5 +31,10 @@ document.addEventListener("DOMContentLoaded", function () {
       applyTheme("dark");
     }
   });
+
   loadSavedTheme();
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  initializeThemeToggle();
 });
