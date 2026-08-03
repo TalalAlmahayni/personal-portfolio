@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Making My Portfolio More Dynamic",
+    "date": "2026-08-04",
+    "summary": "I improved my portfolio by making the header, footer and blog content load dynamically using JavaScript.",
+    "category": "JavaScript",
+    "content": "In this update I implemented reusable website components using JavaScript and fetch(). This reduced duplicated code which made the website more efficient"
+  },
+  {
+    "id": 2,
+    "title": "Adding a Theme Switcher",
+    "date": "2026-08-03",
+    "summary": "I implemented a light and dark theme that saves the user's preference using localStorage.",
+    "category": "JavaScript",
+    "content": "The theme switcher changes the website appearance and theme and saves the selected theme using localStorage so that the preference remains even after refreshing or changing pages."
+  },
+  {
+    "id": 3,
+    "title": "Designing My Portfolio Website and Navigation",
+    "date": "2026-08-02",
+    "summary": "I completed the HTML and CSS base structure for my portfolio website, with proper navigation for all pages with a modern dark theme.",
+    "category": "Design",
+    "content": "This stage focused on creating the layout, creating the navigation between pages, adding the CSS and designing pages for my about page, projects, resume, blog, and contact information."
+  }
+]

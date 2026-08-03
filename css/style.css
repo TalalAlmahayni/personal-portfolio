@@ -252,25 +252,39 @@ main {
 }
 
 .blog-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.blog-card {
+.post-card {
   background-color: var(--surface);
-  padding: 25px;
-  text-align: left;
-  border-left: 5px solid var(--accent);
+  padding: 30px;
+  margin-bottom: 35px;
+  border-top: 4px solid var(--accent);
+  border-radius: 8px;
 }
 
-.blog-card h3 {
+.post-card h2 {
   color: var(--accent);
   margin-bottom: 15px;
 }
 
-.blog-card p {
+.post-meta {
   margin-bottom: 20px;
+}
+
+.post-card p {
+  margin-bottom: 20px;
+}
+
+.latest-badge {
+  display: inline-block;
+  background-color: var(--accent);
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 15px;
+  margin-left: 10px;
 }
 
 /* Contact Page */
