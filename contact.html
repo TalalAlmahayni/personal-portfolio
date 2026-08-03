@@ -1,104 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Contact | Talal's Portfolio</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <nav class="navbar">
+      <h1 class="logo">Talal Almahayni</h1>
 
-        <h1 class="logo">Talal Almahayni</h1>
+      <div class="nav-r">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
 
-        <div class="nav-r">
-
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-            <buttom id="theme-toggle" class="button">
-                Theme
-            </buttom>
-
-        </div>
+        <buttom id="theme-toggle" class="button"> Theme </buttom>
+      </div>
     </nav>
 
     <main>
+      <section class="contact-page">
+        <h2>Contact Me</h2>
 
-        <section class="contact-page">
+        <p>Feel free to reach out if you have any questions or comments.</p>
 
-            <h2>Contact Me</h2>
+        <form class="contact-form">
+          <label for="name">Name</label>
 
-            <p>
-                Feel free to reach out if you have any questions or comments.
-            </p>
+          <input type="text" id="name" name="name" />
 
-            <form class="contact-form">
+          <label for="email">Email</label>
 
-                <label for="name">Name</label>
+          <input type="email" id="email" name="email" />
 
-                <input type="text" id="name" name="name">
+          <label for="subject">Subject</label>
 
-                <label for="email">Email</label>
+          <input type="text" id="subject" name="subject" />
 
-                <input type="email" id="email" name="email">
+          <label for="message">Message</label>
 
-                <label for="subject">Subject</label>
+          <textarea id="message" name="message" rows="6"></textarea>
 
-                <input type="text" id="subject" name="subject">
+          <button type="submit" class="button">Send Message</button>
+        </form>
 
-                <label for="message">Message</label>
+        <div class="social-links">
+          <h3>Connect With Me</h3>
 
-                <textarea id="message" name="message" rows="6"></textarea>
+          <a href="mailto:talal.m2005@gmail.com">Email</a>
 
-                <button type="submit" class="button">
-                    Send Message
-                </button>
-
-            </form>
-
-
-            <div class="social-links">
-
-                <h3>Connect With Me</h3>
-
-                <a href="mailto:talal.m2005@gmail.com">Email</a>
-
-                <a href="#">GitHub</a>
-
-
-            </div>
-
-        </section>
-
+          <a href="#">GitHub</a>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
+      <p>&copy; 2026 Talal Almahayni.</p>
 
-        <p>&copy; 2026 Talal Almahayni.</p>
-
-        <div class="footer-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="resume.html">Resume</a>
-            <a href="projects.html">Projects</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </div>
-
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </footer>
 
-</body>
-
+    <script src="js/theme.js"></script>
+  </body>
 </html>

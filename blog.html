@@ -1,109 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Blog | Talal's Portfolio</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <nav class="navbar">
+      <h1 class="logo">Talal Almahayni</h1>
 
-        <h1 class="logo">Talal Almahayni</h1>
+      <div class="nav-r">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
 
-        <div class="nav-r">
-
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-            <buttom id="theme-toggle" class="button">
-                Theme
-            </buttom>
-
-        </div>
+        <buttom id="theme-toggle" class="button"> Theme </buttom>
+      </div>
     </nav>
 
     <main>
+      <section class="blog-page">
+        <h2>Blog</h2>
 
-        <section class="blog-page">
+        <p>Stay tuned for articles, tutorials, and updates.</p>
 
-            <h2>Blog</h2>
+        <div class="blog-container">
+          <article class="blog-card">
+            <h3>Blog Post Title1</h3>
 
-            <p>
-                Stay tuned for articles, tutorials, and updates.
-            </p>
+            <p>summary 1.</p>
 
-            <div class="blog-container">
+            <a href="#" class="button">Read More</a>
+          </article>
 
-                <article class="blog-card">
+          <article class="blog-card">
+            <h3>Blog Post Title2</h3>
 
-                    <h3>Blog Post Title1</h3>
+            <p>summary 2.</p>
 
-                    <p>
-                        summary 1.
-                    </p>
+            <a href="#" class="button">Read More</a>
+          </article>
 
-                    <a href="#" class="button">Read More</a>
+          <article class="blog-card">
+            <h3>Blog Post Title3</h3>
 
-                </article>
+            <p>summary 3.</p>
 
-                <article class="blog-card">
-
-                    <h3>Blog Post Title2</h3>
-
-                    <p>
-                        summary 2.
-                    </p>
-
-                    <a href="#" class="button">Read More</a>
-
-                </article>
-
-                <article class="blog-card">
-
-                    <h3>Blog Post Title3</h3>
-
-                    <p>
-                        summary 3.
-                    </p>
-
-                    <a href="#" class="button">Read More</a>
-
-                </article>
-
-            </div>
-
-        </section>
-
+            <a href="#" class="button">Read More</a>
+          </article>
+        </div>
+      </section>
     </main>
 
-
     <footer class="footer">
+      <p>&copy; 2026 Talal Almahayni.</p>
 
-        <p>&copy; 2026 Talal Almahayni.</p>
-
-        <div class="footer-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="resume.html">Resume</a>
-            <a href="projects.html">Projects</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </div>
-
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </footer>
 
-</body>
-
+    <script src="js/theme.js"></script>
+  </body>
 </html>

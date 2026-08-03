@@ -1,75 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Resume | Talal's Portfolio</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <nav class="navbar">
+      <h1 class="logo">Talal Almahayni</h1>
 
-        <h1 class="logo">Talal Almahayni</h1>
+      <div class="nav-r">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
 
-        <div class="nav-r">
-
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-            <buttom id="theme-toggle" class="button">
-                Theme
-            </buttom>
-
-        </div>
+        <buttom id="theme-toggle" class="button"> Theme </buttom>
+      </div>
     </nav>
 
     <main>
-        <section class="resume-page">
+      <section class="resume-page">
+        <h2>Resume</h2>
 
-            <h2>Resume</h2>
+        <p>
+          My resume is displayed below, it can be downloaded using the button.
+        </p>
 
-            <p>
-                My resume is displayed below, it can be downloaded using the button.
-            </p>
+        <iframe src="assets/Resume.pdf" width="100%" height="700"> </iframe>
 
-            <iframe src="assets/Resume.pdf" width="100%" height="700">
-            </iframe>
+        <br /><br />
 
-            <br><br>
-
-            <a href="assets/Resume.pdf" class="button" download>
-                Download Resume
-            </a>
-
-        </section>
+        <a href="assets/Resume.pdf" class="button" download>
+          Download Resume
+        </a>
+      </section>
     </main>
 
     <footer class="footer">
+      <p>&copy; 2026 Talal Almahayni.</p>
 
-        <p>&copy; 2026 Talal Almahayni.</p>
-
-        <div class="footer-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="resume.html">Resume</a>
-            <a href="projects.html">Projects</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </div>
-
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </footer>
 
-</body>
-
+    <script src="js/theme.js"></script>
+  </body>
 </html>

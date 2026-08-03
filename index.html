@@ -1,142 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Talal | Portfolio</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <nav class="navbar">
+      <h1 class="logo">Talal Almahayni</h1>
 
-        <h1 class="logo">Talal Almahayni</h1>
+      <div class="nav-r">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
 
-        <div class="nav-r">
-
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-            <buttom id="theme-toggle" class="button">
-                Theme
-            </buttom>
-
-        </div>
+        <buttom id="theme-toggle" class="button"> Theme </buttom>
+      </div>
     </nav>
 
     <main>
-        <section class="hero">
+      <section class="hero">
+        <div class="hero-text">
+          <h2>Hello, I'm Talal</h2>
 
-            <div class="hero-text">
+          <p>Welcome to my personal portfolio website.</p>
 
-                <h2>Hello, I'm Talal</h2>
+          <a href="resume.html" class="button">Resume</a>
+        </div>
 
-                <p>
-                    Welcome to my personal portfolio website.
-                </p>
+        <div class="hero-image">
+          <img src="images/profile.jpg" alt="Profile Picture" />
+        </div>
+      </section>
 
-                <a href="resume.html" class="button">Resume</a>
+      <div class="section-divider"></div>
 
-            </div>
+      <section class="about-preview">
+        <h2>About Me</h2>
 
-            <div class="hero-image">
+        <p>
+          I am a current fourth year student at York university majoring in
+          Information Technology. Learn more about me on this page!
+        </p>
 
-                <img src="images/profile.jpg" alt="Profile Picture">
+        <a href="about.html" class="button"> Learn More </a>
+      </section>
 
-            </div>
+      <div class="section-divider"></div>
 
-        </section>
+      <section class="projects-preview">
+        <h2>Featured Projects</h2>
 
-        <div class="section-divider"></div>
+        <div class="project-container">
+          <div class="project-card">
+            <h3>Analytical Study Project</h3>
 
-        <section class="about-preview">
+            <p>Analyzing data using MATLAB to gather valuable information.</p>
+          </div>
 
-            <h2>About Me</h2>
+          <div class="project-card">
+            <h3>Prototype Development</h3>
 
             <p>
-                I am a current fourth year student at York university majoring in Information Technology. Learn more
-                about me on this page!
+              Step by step proccess of developing a deadline management system
+              based on gathered data.
             </p>
+          </div>
 
-            <a href="about.html" class="button">
-                Learn More
-            </a>
+          <div class="project-card">
+            <h3>Exoplanets Project</h3>
 
-        </section>
+            <p>
+              Applied scientific and mathematical laws and ideas to a given set
+              of data to find the exoplanets orbiting around the star.
+            </p>
+          </div>
+        </div>
 
-        <div class="section-divider"></div>
-
-        <section class="projects-preview">
-
-            <h2>Featured Projects</h2>
-
-            <div class="project-container">
-
-                <div class="project-card">
-
-                    <h3>Analytical Study Project</h3>
-
-                    <p>
-                        Analyzing data using MATLAB to gather valuable information.
-                    </p>
-
-                </div>
-
-                <div class="project-card">
-
-                    <h3>Prototype Development</h3>
-
-                    <p>
-                        Step by step proccess of developing a deadline management system based on gathered data.
-                    </p>
-
-                </div>
-
-                <div class="project-card">
-
-                    <h3>Exoplanets Project</h3>
-
-                    <p>
-                        Applied scientific and mathematical laws and ideas to a given set of data to find the exoplanets
-                        orbiting around the star.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <a href="projects.html" class="button">
-                View All Projects
-            </a>
-
-        </section>
+        <a href="projects.html" class="button"> View All Projects </a>
+      </section>
     </main>
 
     <footer class="footer">
+      <p>&copy; 2026 Talal Almahayni.</p>
 
-        <p>&copy; 2026 Talal Almahayni.</p>
-
-        <div class="footer-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="resume.html">Resume</a>
-            <a href="projects.html">Projects</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </div>
-
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </footer>
 
-</body>
-
+    <script src="js/theme.js"></script>
+  </body>
 </html>
