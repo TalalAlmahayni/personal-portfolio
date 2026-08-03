@@ -18,32 +18,42 @@
 
         <p>Feel free to reach out if you have any questions or comments.</p>
 
-        <form class="contact-form">
+        <form id="contact-form" class="contact-form">
           <label for="name">Name</label>
 
           <input type="text" id="name" name="name" />
+
+          <span class="error-msg"></span>
 
           <label for="email">Email</label>
 
           <input type="email" id="email" name="email" />
 
+          <span class="error-msg"></span>
+
           <label for="subject">Subject</label>
 
           <input type="text" id="subject" name="subject" />
+
+          <span class="error-msg"></span>
 
           <label for="message">Message</label>
 
           <textarea id="message" name="message" rows="6"></textarea>
 
+          <span class="error-msg"></span>
+
           <button type="submit" class="button">Send Message</button>
         </form>
+
+        <p id="success-message"></p>
 
         <div class="social-links">
           <h3>Connect With Me</h3>
 
           <a href="mailto:talal.m2005@gmail.com">Email</a>
 
-          <a href="#">GitHub</a>
+          <a href="https://github.com/TalalAlmahayni">GitHub</a>
         </div>
       </section>
     </main>
@@ -52,5 +62,6 @@
 
     <script src="js/theme.js"></script>
     <script src="js/components.js"></script>
+    <script src="js/validate.js"></script>
   </body>
 </html>

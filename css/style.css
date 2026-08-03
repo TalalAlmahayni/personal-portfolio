@@ -328,6 +328,21 @@ main {
   border: 2px solid var(--accent);
 }
 
+.error-msg {
+  display: block;
+  color: red;
+  font-size: 14px;
+  min-height: 18px;
+  margin-top: 5px;
+}
+
+#success-message {
+  color: var(--accent);
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
 .contact-form button {
   margin-top: 20px;
   padding: 14px 40px;
