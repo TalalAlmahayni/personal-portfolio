@@ -235,6 +235,21 @@ main {
   padding: 20px;
 }
 
+#filter-input {
+  width: 40%;
+  padding: 12px;
+  margin: 20px 0 30px;
+  background-color: var(--surface);
+  color: var(--text);
+  border: 2px solid var(--accent);
+}
+
+#no-results {
+  margin-top: 30px;
+  color: var(--accent);
+  font-weight: bold;
+}
+
 /* The Blog Page */
 
 .blog-page {

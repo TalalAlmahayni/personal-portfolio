@@ -18,11 +18,23 @@
 
         <p>Here are some of the projects I have worked on previously.</p>
 
+        <label for="filter-input">Search Projects</label>
+
+        <input
+          type="text"
+          id="filter-input"
+          placeholder="Search by title or description..."
+        />
+
+        <p id="no-results" style="display: none">No projects found.</p>
+
         <div class="projects-grid">
           <div class="project-card">
-            <h3>Sales Data Analysis For a Convenience Store</h3>
+            <h3 class="card-title">
+              Sales Data Analysis For a Convenience Store
+            </h3>
 
-            <p>
+            <p class="card-description">
               This project was done by me and two of my classmates in the course
               ITEC 2600, we created a MATLAB data analysis system for a
               convenience store using the simulated weekly sales data. We used
@@ -35,9 +47,9 @@
           </div>
 
           <div class="project-card">
-            <h3>Academic Mangement Support System</h3>
+            <h3 class="card-title">Academic Mangement Support System</h3>
 
-            <p>
+            <p class="card-description">
               This project was developed by me and three other classmates in the
               course ITEC 3230. The project was about creating a useful daily
               application and we chose to do an academic management support
@@ -52,9 +64,9 @@
           </div>
 
           <div class="project-card">
-            <h3>Exoplanet Detection and Analysis</h3>
+            <h3 class="card-title">Exoplanet Detection and Analysis</h3>
 
-            <p>
+            <p class="card-description">
               This project was done in NATS 1880, in which I used light curve
               data that was given to me to find possible exoplanets with the
               transit method. The project included scientific and mathematical
@@ -73,5 +85,6 @@
 
     <script src="js/theme.js"></script>
     <script src="js/components.js"></script>
+    <script src="js/filter.js"></script>
   </body>
 </html>
