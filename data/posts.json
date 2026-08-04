@@ -1,26 +1,42 @@
 [
   {
-    "id": 1,
+    "id": 5,
+    "title": "Adding a Project Filter",
+    "date": "2026-08-04",
+    "category": "Part 5",
+    "summary": "I implemented a live search feature that filters projects instantly without reloading the page.",
+    "content": "I added a search bar that filters project cards by matching both the project title and the description of the project as the user types. JavaScript immediately hides any non-matching projects and displays a message when no results are found. This feature gave me more experience working with DOM, event listeners and dynamically updating the webpage content based on inputs."
+  },
+  {
+    "id": 4,
+    "title": "Creating Contact Form Validation",
+    "date": "2026-08-04",
+    "category": "Part 4",
+    "summary": "I added a validation layer to ensure users provide complete and valid information when submitting the form.",
+    "content": "For the contact form on the contact page, I validated the user's name, email address and message before submission. JavaScript will display helpful and proper error messages directly beneath each field and removes them as the user corrects their input text. Once all fields pass the validation filter, the form is replaced with a success message. This feature helped me improve my understanding of event handling and providing useful feedback to users."
+  },
+  {
+    "id": 3,
     "title": "Making My Portfolio More Dynamic",
     "date": "2026-08-04",
     "summary": "I improved my portfolio by making the header, footer and blog content load dynamically using JavaScript.",
-    "category": "JavaScript",
-    "content": "In this update I implemented reusable website components using JavaScript and fetch(). This reduced duplicated code which made the website more efficient"
+    "category": "Part 3",
+    "content": "In this update I implemented reusable website components using JavaScript and fetch(). This reduced duplicated code which made the website more efficient. One challenge was making sure all the colors on the CSS switched dynamically every time the button was pressed"
   },
   {
     "id": 2,
     "title": "Adding a Theme Switcher",
     "date": "2026-08-03",
     "summary": "I implemented a light and dark theme that saves the user's preference using localStorage.",
-    "category": "JavaScript",
-    "content": "The theme switcher changes the website appearance and theme and saves the selected theme using localStorage so that the preference remains even after refreshing or changing pages."
+    "category": "Part 1",
+    "content": "The theme switcher changes the website appearance and theme and saves the selected theme using localStorage so that the preference remains even after refreshing or changing pages. While implementing, I started to understand how localStorage can retain user preferences between refreshes and page visits"
   },
   {
-    "id": 3,
+    "id": 1,
     "title": "Designing My Portfolio Website and Navigation",
-    "date": "2026-08-02",
+    "date": "2026-08-01",
     "summary": "I completed the HTML and CSS base structure for my portfolio website, with proper navigation for all pages with a modern dark theme.",
-    "category": "Design",
+    "category": "HTML and CSS",
     "content": "This stage focused on creating the layout, creating the navigation between pages, adding the CSS and designing pages for my about page, projects, resume, blog, and contact information."
   }
 ]
